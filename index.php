@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Sistema de Control de Horas</title>
+    <title>Libro de Obra Digital</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="recursos/bootstrap3/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -10,15 +10,16 @@
     <link href="recursos/bootstrap-fileupload/bootstrap-fileupload.min.css" rel="stylesheet">        
     <!-- Jquery-ui -->
     <link href="recursos/jquery-ui/css/zhi/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
+    <!-- Utilizado por Summernote Editor -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="recursos/summernote/summernote.css" rel="stylesheet">
     <!-- Zhi CSS -->
     <link href="recursos/zhi/css/zhi.css" rel="stylesheet"> 
     <!-- Fonts -->
     <link href='fonts/fonts.css' rel='stylesheet' type='text/css'>
     <!-- Fav Icon -->    
     <link href="img/favicon.ico" rel="SHORTCUT ICON">
-
-
-
+ 
   </head>
   <body>
 	<?php 
@@ -48,7 +49,8 @@
   <script src="recursos/bootstrap3/js/bootstrap.min.js"></script>
   <script src="recursos/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>  
   <script src="recursos/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
-  
+  <script src="recursos/summernote/summernote.min.js"></script>
+
   <script type="text/javascript"> 
     
     $(document).ready(function(){
@@ -80,9 +82,8 @@
                       showMonthAfterYear: false,
                       yearSuffix: ''};
               $.datepicker.setDefaults($.datepicker.regional['es']);
-      }); 
-
-    })
+      });
+  })
   </script>
 
  </body>
