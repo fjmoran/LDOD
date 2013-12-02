@@ -1,0 +1,129 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+h2 { 
+  font-family: 'Ubuntu Condensed', sans-serif !important; font-weight: 400; 
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #f8f8f8;
+}
+
+.navbar-brand { 
+  font-family: 'Ubuntu Condensed', sans-serif !important; font-weight: 400; 
+  font-size:24px;
+}
+
+/* First level of nav */
+.bs-sidenav {
+  margin-bottom: 30px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  border-color: #e7e7e7;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* All levels of nav */
+.bs-sidebar .nav > li > a {
+  display: block;
+  color: #777;
+  padding: 5px 20px;
+}
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+}
+.bs-sidebar .nav > .active > a,
+.bs-sidebar .nav > .active:hover > a,
+.bs-sidebar .nav > .active:focus > a {
+  font-weight: bold;
+  color: #666;
+  background-color: #e5e3e9;
+}
+
+.nav-header {
+  padding-left: 15px; 
+  color: #428BCA; 
+  font-weight: bold;
+} 
+
+.fill-light-top {
+  background-color: #F8F8F8; 
+  padding-top: 2px; 
+  margin: 0px; 
+  margin-top: 7px;
+  border-top: 1px solid #E7E7E7; 
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
+  -webkit-border-radius: 5px 5px 0 0; 
+  -moz-border-radius: 5px 5px 0 0; 
+  border-radius: 5px 5px 0 0;
+}
+
+.fill-light-bottom {
+  background-color: #F8F8F8; 
+  padding-top: 5px; 
+  margin: 0px; 
+  border-bottom: 1px solid #E7E7E7; 
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
+  -webkit-border-radius: 0 0 5px 5px; 
+  -moz-border-radius: 0 0 5px 5px; 
+  border-radius: 0 0 5px 5px;
+}
+
+table.table tr:hover td {
+  background-color: #e5e3e9;
+  font-weight: bold;
+}
+
+.graph-report {
+  border: 1px solid #E7E7E7; 
+  border-radius: 5px 5px 5px 5px;
+  min-width: 310px; 
+  height: 350px;
+}
+
+.graph-report-full {
+  border: 1px solid #E7E7E7; 
+  border-radius: 5px 5px 5px 5px;
+  min-width: 310px; 
+  height: 700px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  max-width: none !important;
+  width: auto;
+}
+.container .credit {
+  margin: 20px 0;
+}
