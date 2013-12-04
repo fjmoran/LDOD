@@ -6,6 +6,12 @@
     	<div class="row">
     		<div class="col-md-12">
 		    	<div class="form-group">
+		    		<label for="fecha" class="col-md-10 control-label"> </label>
+		    		<div class="col-md-2">
+		    			<input type="text" class="form-control text-center" placeholder="DD/MM/AAAA" readonly="true" value="<?php echo date('d-m-Y') ?>">
+		    		</div>	
+		    	</div> 			
+		    	<div class="form-group">
 		    		<label for="emisor" class="col-md-1 control-label">De:</label>
 		    		<div class="col-md-11">
 		    			<input type="text" class="form-control" placeholder="Emisor">
@@ -24,7 +30,18 @@
 		    		</div>
 		    	</div>			    		    	
 		    </div>	
-	    </div>	
+	    </div>
+
+
+    <div class="row pull-right"> <!-- fila para botones -->
+      <div class="col-md-12">
+        <p>
+          <button class="btn btn-default">Cancelar</button>
+          <button class="btn btn-primary">Guardar</button>
+        </p>
+      </div>
+    </div>
+
     </form>
 
 </div><!-- .span11 -->

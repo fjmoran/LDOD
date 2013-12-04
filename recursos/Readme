@@ -6,7 +6,7 @@ Directorio para dejar librerias, programas y demases
 (1) Bootstrap 3: Framework CSS para el estilo del sitio (para probar posible cambio)
 (2) JqueryUI: Solo manejo de calendarios (no tiene el resto de la funcionalidad de JqueryUI)
 (3) Jquery: Framework JS utilizado por (1) y (2)
-(4) boostrap-fileupload: Jasny Bootstrap fileuplod modigficado para usar con BS3
+(4) jQuery-File-Upload: blueimp file upload (https://github.com/blueimp/jQuery-File-Upload)
 (5) CryptoJSv3: Manejo de criptografía para encriptación de claves
 (6) Zhi: recursos generados por zhi
 (7) Highcharts 3: Generación de graficos
