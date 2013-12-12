@@ -6,9 +6,8 @@
     	<div class="row">
     		<div class="col-md-12">
 		    	<div class="form-group">
-		    		<label for="fecha" class="col-md-10 control-label"> </label>
-		    		<div class="col-md-2">
-		    			<input type="text" class="form-control text-center" placeholder="DD/MM/AAAA" readonly="true" value="<?php echo date('d-m-Y') ?>">
+		    		<div class="col-md-12">
+		    			<a href="#" class="btn btn-success btn-sm pull-right" role="button"><span class="glyphicon glyphicon-cloud-upload"></span> Adjuntos</a>
 		    		</div>	
 		    	</div> 			
 		    	<div class="form-group">
@@ -52,7 +51,7 @@
  		$('#summernote').summernote({
   			height: 300,  //set editable area's height
   			 toolbar: [
-    			// ['style', ['style']], 
+    			['style', ['style']], 
    				['style', ['bold', 'italic', 'underline', 'clear']],
     			['fontsize', ['fontsize']],
     			['color', ['color']],
