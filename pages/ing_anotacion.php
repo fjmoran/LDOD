@@ -7,7 +7,7 @@
     		<div class="col-md-12">
 		    	<div class="form-group">
 		    		<div class="col-md-12">
-		    			<a href="#" class="btn btn-success btn-sm pull-right" role="button"><span class="glyphicon glyphicon-cloud-upload"></span> Adjuntos</a>
+		    			<a href="#" class="btn btn-success btn-sm pull-right" role="button"><span class="glyphicon glyphicon-paperclip"></span> Adjuntos</a>
 		    		</div>	
 		    	</div> 			
 		    	<div class="form-group">
