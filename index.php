@@ -10,9 +10,10 @@
           
     <!-- Jquery-ui -->
     <link href="recursos/jquery-ui/css/zhi/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
-    <!-- Utilizado por Summernote Editor -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="recursos/summernote/summernote.css" rel="stylesheet">
+    <!-- Summernote Editor -->
+    <link href="recursos/summernote/summernote.css" rel="stylesheet">   
+    <!-- Font Awesome -->   
+    <link href="recursos/font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
     <!-- Zhi CSS -->
     <link href="recursos/zhi/css/zhi.css" rel="stylesheet"> 
     <!-- Fonts -->

@@ -98,8 +98,9 @@ body {
 }
 
 table.table tr:hover td {
-  background-color: #e5e3e9;
-  font-weight: bold;
+  background-color: #BFD8ED;
+  /* background-color: #e5e3e9;
+  font-weight: bold; */
 }
 
 .graph-report {
@@ -116,6 +117,26 @@ table.table tr:hover td {
   height: 700px;
 }
 
+
+/* stop the glowing blue shadow (para busqueda rapida) */
+.no-glow,
+.no-glow:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+
+.reset-search.btn-link, .reset-search.btn-link:hover, .reset-search.btn-link:focus .reset-search.btn-link:active {
+color: #333333;
+text-decoration: none;
+background-color: transparent;
+border-bottom-color: #cccccc; 
+border-top-color: #cccccc; 
+border-radius:0px;
+outline: none;
+margin-left: -1px;
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
@@ -126,4 +147,37 @@ table.table tr:hover td {
 }
 .container .credit {
   margin: 20px 0;
+}
+
+/* Sortable
+-------------------------------------------------- */
+
+#sortable1, #sortable2 { 
+  list-style-type: none; 
+  float: left; 
+  margin-right: 10px; 
+  background: #eee; 
+  padding: 5px; 
+  min-width: 100%;
+  height: 400px; 
+  overflow: auto;
+  font-weight: normal;
+  margin-bottom: 30px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  border-color: #e7e7e7;
+  border-style: solid;
+  border-width: 1px;
+
+
+}
+
+#sortable1 li, #sortable2 li { 
+  margin: 0 5px 5px 5px; 
+  padding: 5px; 
+  /* font-size: 1.2em; 
+  width: 120px; */
+  min-width: 120px; 
 }
